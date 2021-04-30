@@ -1,5 +1,5 @@
 # MinesweeperOOPS
- Minesweeper game designed using C++ oops concepts and SFML 2D graphics library with sound.
+ Minesweeper game designed using C++ oops concepts (with grid backtracking algorithm) and SFML 2D graphics library with sound.
 # Features
 1. Start Menu
    * Play
