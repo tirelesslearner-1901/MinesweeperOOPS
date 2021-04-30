@@ -15,5 +15,5 @@
 * GCC 4.9.2 TDM (SJLJ)
 * SFML 2.4.2
 # Steps to execute
-1.Copy the contents of **Minesweeper(OOPS)** folder in your computer.
-2.Compile the file **main.cpp** & enjoy the game. !
+1. Copy the contents of **Minesweeper(OOPS)** folder in your computer.
+2. Compile the file **main.cpp** & enjoy the game. !
