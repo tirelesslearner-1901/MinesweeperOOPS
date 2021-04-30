@@ -58,7 +58,7 @@ struct BOMB
 //Game goes here
 class GameBoard
 {
-    vector< vector<int> > mines;//Matrix to store EPMTY SPACE = 0, FLOWER = -1, and NUMBERS>0 = no. of BOMBS around it
+    vector< vector<int> > mines;//Matrix to store EPMTY SPACE = 0, BOMBs = -1, and NUMBERS>0 = no. of BOMBS around it
     vector< vector<int> > isCovered;//Matrix to store 0 = NOR COVERED, 1 = COVERED
     vector<BOMB> BOMBVector; //Stores exact location of BOMBs in an array of BOMB.
     void setUpBoards();//resize and fill in the initial values of mines[] and isCovered
