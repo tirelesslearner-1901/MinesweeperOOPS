@@ -1,0 +1,30 @@
+#include <SFML/Audio.hpp>
+
+using namespace std;
+using namespace sf;
+
+class SoundManager
+{
+private:
+    sf::SoundBuffer missile_launch_buff;
+    sf::Sound fire_sound;
+public:
+    SoundManager();
+    void playMissileLaunch();
+
+};
+
+SoundManager::SoundManager()
+{
+
+    missile_launch_buff.loadFromFile("sound/mixkit-player-losing-or-failing-2042.wav");
+
+}
+
+void SoundManager::playMissileLaunch()
+{
+
+    fire_sound.setBuffer(missile_launch_buff);
+    fire_sound.play();
+    //cout << "Missile launch sound \n";
+}
